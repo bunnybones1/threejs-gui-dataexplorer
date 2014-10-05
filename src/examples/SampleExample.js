@@ -18,7 +18,7 @@ function SampleExample() {
 	);
 
 	var fontProps = {
-		size: .3
+		size: .2
 	}
 	var label1 = new Label('Testing GUI Text 1', fontProps, undefined, undefined, true);
 	var label2 = new Label('Testing GUI Text 2', fontProps, undefined, undefined, true);
@@ -28,8 +28,8 @@ function SampleExample() {
 	gui.add(label3);
 	var size1 = label1.geometry.boundingBox.size();
 	var size3 = label3.geometry.boundingBox.size();
-	label1.position.y += size1.y*2;
-	label3.position.y -= size3.y*2;
+	label1.position.y += size1.y*1.2;
+	label3.position.y -= size3.y*1.2;
 
 
 
