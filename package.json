@@ -2,24 +2,25 @@
   "name": "threejs-gui-dataexplorer",
   "description": "threejs-gui-dataexplorer",
   "version": "1.0.0",
-  "homepage": "",
   "author": {
     "name": "Tomasz Dysinski",
-    "url": "http://www.bunnybones.com"
+    "email": "oz@bunnybones.com",
+    "url": "https://github.com/bunnybones1"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git://github.com/bunnybones1/threejs-gui-dataexplorer.git"
   },
+  "homepage": "https://github.com/bunnybones1/threejs-gui-dataexplorer",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/bunnybones1/threejs-gui-dataexplorer/issues"
   },
   "licenses": [
     {
       "type": "MIT"
     }
   ],
-  "main": "src/core/index.js",
+  "main": "index.js",
   "engines": {
     "node": ">= 0.8.0"
   },
@@ -27,25 +28,21 @@
     "test": "beefy test.js --live --open"
   },
   "dependencies": {
-    "globalizejs": "0.0.1",
-    "grunt-open": "^0.2.3",
-    "gsap": "^1.13.2",
     "input-mouse": "^1.0.2",
     "input-resize": "^1.0.2",
-    "lodash": "^2.4.1",
     "signals": "^1.0.0",
     "threejs-label": "~1.0.0"
   },
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-connect": "~0.3.0",
-    "grunt-contrib-livereload": "~0.1.2",
-    "grunt-contrib-watch": "~0.4.4",
-    "grunt-watchify": "~0.0.3",
-    "loadandrunscripts": "^1.0.0"
+    "loadandrunscripts": "^1.0.0",
+    "threejs-managed-view": "^1.0.0",
+    "threejs-orbitingballs": "^1.0.0",
+    "urlparams": "^1.0.0"
   },
   "peerDependencies": {
-    "grunt": "~0.4.1"
   },
-  "keywords": []
+  "keywords": [
+    "threejs",
+    "gui"
+  ]
 }

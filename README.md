@@ -1,27 +1,13 @@
-## Getting Started
+# threejs-gui-dataexplorer
 
-### What is ThreejsGuiDataexplorer?
+[![unstable](http://badges.github.io/stability-badges/dist/unstable.svg)](http://github.com/badges/stability-badges)
 
-This is an example-driven module for threejs modules and projects.
+Threejs general purpose UI for navigating JSON or Objects.
 
-This module is preset via the [generator-threejs-module](http://github.com/bunnybones1/generator-threejs-module) yeoman generator.
-To begin development, simply run:
-```bash
-grunt
-```
-and navigate to [this address](localhost:9000/examples/01_Basic/)
+## Usage
 
-### Prescribed development
-
-Develop your core library in ```src/core```
-Develop your example code in ```src/examples```
-Create very basic html modelled after ```app/examples/01_Basic/index.html```
-
-Everything is stubbed out to generate a core library `ThreejsGuiDataexplorer.js`. Examples are secondary to distribution but core to development. Examples behave in a plugin style, so your `ThreejsGuiDataexplorer.js` is globally available as `ThreejsGuiDataexplorer`, and examples will appear under `ThreejsGuiDataexplorer.examples`.
-This module is also npm requireable.
-
-Update this README.md as soon as you identify your module's purpose.
+[![NPM](https://nodei.co/npm/threejs-gui-dataexplorer.png)](https://nodei.co/npm/threejs-gui-dataexplorer/)
 
 ## License
 
-MIT
+MIT, see [LICENSE.md](http://github.com/bunnybones1/threejs-gui-dataexplorer/blob/master/LICENSE.md) for details.
